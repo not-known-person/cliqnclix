@@ -1,0 +1,24 @@
+import React from 'react'
+
+const Images = () => {
+    const images = [{ path: "./pexels-ata-daftarifard-20440051.jpg", category: 'Nature' }, { path: "./pexels-cody-graphy-20434627.jpg", category: 'Flower' }, { path: "./pexels-equalstock-in-20344348.jpg", category: 'Urban' }, { path: "./pexels-larissa-farber-19919509.jpg", category: "Food" }, { path: "./pexels-marieke-mol-20518865.jpg", category: "Childrens" }, { path: "./pexels-yuliana-pavlova-20425642.jpg", category: 'Black & White' }]
+    return (
+        <div className='bg-white shadow-md rounded-xl p-3 m-5 '>
+            <div className='columns-3' >
+                {
+                    images.map(image => {
+                        return (
+                            <>
+                                <img src={image.path} className='p-2 rounded-md' />
+                            </>
+                        )
+                    })
+                }
+
+            </div>
+
+        </div>
+    )
+}
+
+export default Images
