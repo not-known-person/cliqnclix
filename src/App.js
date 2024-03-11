@@ -6,7 +6,7 @@ import Homepage from './Pages/Home/Homepage';
 
 function App() {
   return (
-    <div className="App bg-red-100/50 h-lvh">
+    <div className="App bg-red-100/50 font-mullish">
       <Routes>
         <Route element={<Homepage />} path=''></Route>
         <Route element={<Dashboard />} path='/contributor'></Route>
