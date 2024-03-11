@@ -13,7 +13,7 @@ const Homepage = () => {
     return (
         <div>
             <Navbar />
-            <Search2 />
+            {/* <Search2 /> */}
             <Images />
         </div >
     )

@@ -3,7 +3,7 @@ import React from 'react'
 const Search2 = () => {
     return (
         <div>
-            <div className='flex justify-center items-center gap-3  bg-white shadow-md p-7 m-12 rounded-md w-min mx-auto'>
+            <div className='flex justify-center items-center gap-3  bg-white shadow-md p-7 m-12 mx-5 rounded-xl lg:w-min lg:mx-auto  flex-wrap lg:flex-nowrap '>
                 <div>
                     <div class="relative inline-block text-left">
                         <div>
@@ -41,7 +41,7 @@ const Search2 = () => {
                     <div className='h-100 w-[0.8px] bg-gray-500' ></div>
                     <input type="text" className='bg-transparent placeholder-gray-500 w-72 ' placeholder="I'm looking for..." />
                 </div>
-                <button className='bg-/40 rounded-md  text-white px-10 py-4  font-semibold border bg-gray-700'  > Search  </button>
+                <button className='bg-/40 rounded-md  text-white px-10 py-4  font-semibold border bg-gray-700 shadow-md'  > Search  </button>
                 <div>
                     <div class="relative inline-block text-left">
                         <div>
