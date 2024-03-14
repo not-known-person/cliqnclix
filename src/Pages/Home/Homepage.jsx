@@ -1,8 +1,10 @@
 import React from 'react'
-import Navbar from '../../components/Common/Navbar'
+import Navbar from '../../components/Layout/Navbar'
 import Search from '../../components/Home/SearchBar/Search'
 import Search2 from '../../components/Home/SearchBar/Search2'
 import Images from '../../components/Home/ImageGrid/Images'
+import FetauredImages from '../../components/Fetaured/FetauredImages'
+import MainLayout from '../../components/Layout/MainLayout'
 
 const Homepage = () => {
 
@@ -11,11 +13,8 @@ const Homepage = () => {
     //     isSelected = !isSelected
     // }
     return (
-        <div>
-            <Navbar />
-            {/* <Search2 /> */}
-            <Images />
-        </div >
+
+        <MainLayout component={<FetauredImages />}  ></MainLayout>
     )
 }
 
