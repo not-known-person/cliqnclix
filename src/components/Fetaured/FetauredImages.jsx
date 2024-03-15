@@ -16,7 +16,7 @@ const FetauredImages = () => {
                     images.map(image => {
                         return (
                             <div className=' bg-white shadow-md rounded-md ' >
-                                <img src={image.path} alt="" className=' rounded-md' />
+                                <img src={image.path} alt="" className=' rounded-md ' />
                             </div>
                         )
                     })

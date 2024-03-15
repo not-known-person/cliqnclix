@@ -10,7 +10,7 @@ const Images = () => {
                 <p className='text-gray-500 text-md m-2 text-center'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Veritatis similique repellat animi blanditiis itaque,?</p>
             </div>
             <Search2 />
-            <div className='bg-white shadow-md rounded-xl p-3 pt-6 m-5 '>
+            <div className='bg-white shadow-md rounded-xl p-3 pt-6 '>
                 <div className='mb-6' >
                     <h1 className='text-2xl font-extrabold text-gray-800 text-center '>Choose By Categories</h1>
                     <p className='text-gray-500 text-xs  m-1 text-center' >Lorem ipsum dolor, sit amet consectetur adipisicing elit. </p>
