@@ -9,6 +9,8 @@ module.exports = {
       "mullish": ["Mulish", "sans-serif"]
     }
   },
-  plugins: [],
+  plugins: [
+    require('tailwind-scrollbar'),
+  ],
 }
 

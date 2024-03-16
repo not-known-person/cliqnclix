@@ -13,25 +13,26 @@ const Category = () => {
                 <div>
                     <CategoryStrip />
                     <div className='grid grid-cols-12 gap-20'>
-                        <div className='col-span-2 '>
-                            <div className='sticky overflow-scroll h-[98vh] top-2 w-60 bg-gray-700  rounded-md shadow-md p-4' >
+                        {/* <div className='col-span-2 '>
+                            <div className='sticky overflow-y-scroll h-[98vh] top-2 w-60 bg-gray-700  rounded-md shadow-md p-4 scrollbar-thin scrollbar-thumb-gray-400/35 scrollbar-track-transparent' >
                                 <div className='text-white flex flex-col gap-3'>
                                     {
-                                        filters.map(filter => <div>
-                                            <h1 className='font-bold text-xl ' >{filter.name}</h1>
-                                            {
-                                                filter.types.map(type => <p className='my-2 font-medium p-2 bg-gray-400/35 text-white/80 rounded-lg'> {type}</p>)
-                                            }
-                                            <hr className='mt-4' />
-                                        </div>
+                                        filters.map(filter =>
+                                            <div>
+                                                <h1 className='font-bold text-xl text-center' >{filter.name}</h1>
+                                                {
+                                                    filter.types.map(type => <><button className='my-2 font-medium p-2 hover:text-black hover:bg-white transition-colors delay-100 w-full  bg-gray-400/35 text-white/80 rounded-lg cursor-pointer'> {type}</button><br /></>)
+                                                }
+                                                <hr className='mt-4' />
+                                            </div>
                                         )
                                     }
                                 </div>
                             </div>
-                        </div>
-                        <div className='col-span-10'>
-                            <div className='flex  flex-col justify-between m-2 items-center gap-5 mb-5' >
-                                <div className='  text-5xl font-black text-gray-700 bg-gray text-center' >
+                        </div> */}
+                        <div className='col-span-12 flex flex-col gap-4 my-3'>
+                            <div className='flex justify-between items-center ' >
+                                <div className='text-6xl font-black text-gray-700 bg-gray text-center' >
                                     Fashion
                                 </div>
                                 <div className='flex border border-gray-300 p-1 rounded-lg gap-y-2 gap-x-1'>
@@ -66,7 +67,6 @@ const Category = () => {
                                             <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={1.5} stroke="currentColor" className="w-6 h-6">
                                                 <path strokeLinecap="round" strokeLinejoin="round" d="M15.182 15.182a4.5 4.5 0 0 1-6.364 0M21 12a9 9 0 1 1-18 0 9 9 0 0 1 18 0ZM9.75 9.75c0 .414-.168.75-.375.75S9 10.164 9 9.75 9.168 9 9.375 9s.375.336.375.75Zm-.375 0h.008v.015h-.008V9.75Zm5.625 0c0 .414-.168.75-.375.75s-.375-.336-.375-.75.168-.75.375-.75.375.336.375.75Zm-.375 0h.008v.015h-.008V9.75Z" />
                                             </svg>
-
                                             <p>
                                                 Vector
                                             </p>
@@ -77,8 +77,8 @@ const Category = () => {
                                     </div>
                                 </div>
                             </div>
-                            <div>
 
+                            <div>
                             </div>
                             <div className='columns-3 space-y-4  space-x-4'>
                                 {images.map(image => <div>
@@ -107,7 +107,6 @@ const Category = () => {
                                                         <path strokeLinecap="round" strokeLinejoin="round" d="M21 8.25c0-2.485-2.099-4.5-4.688-4.5-1.935 0-3.597 1.126-4.312 2.733-.715-1.607-2.377-2.733-4.313-2.733C5.1 3.75 3 5.765 3 8.25c0 7.22 9 12 9 12s9-4.78 9-12Z" />
                                                     </svg>
                                                 </div>
-
                                             </div>
                                         </div>
                                     </div>
