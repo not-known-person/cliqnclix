@@ -42,7 +42,6 @@ const Product = () => {
                                     }
                                 </div>
                             </div> */}
-
                             <div>
                                 {
                                     options.map(property => {
@@ -91,9 +90,6 @@ const Product = () => {
                                         </div>
                                     </div>
                                 </div>
-
-
-
                             </div>
                         </div>
                     </div>

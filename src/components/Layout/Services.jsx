@@ -32,7 +32,7 @@ const Services = () => {
             </svg>)
             ,
             iconbg: 'rgb(128,0,128,0.10)',
-            iconColor: 'rgb(128,0,128)'
+            iconColor: 'rgb(130,0,130)'
         },
         {
             primary: '24/7 Support',
@@ -47,10 +47,10 @@ const Services = () => {
     ]
 
     return (
-        <div className='flex p-5 justify-center lg:flex-nowrap flex-wrap'>
+        <div className='flex p-3 justify-center lg:flex-nowrap flex-wrap'>
             {services.map(service => {
                 return (
-                    <div className='flex  flex-row gap-3 rounded-lg bg-white text-gray-800 p-4 m-2  shadow-md' >
+                    <div className='flex flex-row gap-3 rounded-lg bg-clip-padding backdrop-filter backdrop-brightness-75 backdrop-blur-sm   bg-opacity-10 text-white p-4 m-2  shadow-md'  >
                         <div>
                             <div className="rounded-full   w-min p-4 flex justify-center items-center" style={{ backgroundColor: service.iconbg, color: service.iconColor }}   >
                                 {service.icon}
@@ -58,7 +58,7 @@ const Services = () => {
                         </div>
                         <div>
                             <h1 className='font-extrabold text-2xl'>{service.primary}</h1>
-                            <h3 className='text-gray-500' >{service.secondary}</h3>
+                            <h3 className='text-white/50' >{service.secondary}</h3>
                         </div>
                     </div>
                 )
