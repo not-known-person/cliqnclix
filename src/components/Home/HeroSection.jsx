@@ -17,7 +17,6 @@ const HeroSection = () => {
                     <img src="./bg3.jpg" alt="" className=' rounded-s-3xl' />
                 </div>
             </div>
-            <Images />
         </div>
     )
 }

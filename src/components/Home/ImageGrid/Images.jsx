@@ -15,28 +15,28 @@ const Images = () => {
                     <p className='text-gray-400 text-xs  m-1 text-center' >Lorem ipsum dolor, sit amet consectetur adipisicing elit. </p>
                 </div>
                 <SearchBar />
-                <div className='columns-1 md:columns-2 lg:columns-3 space-y-3 ' >
+                <div className='columns-1 md:columns-2 lg:columns-4 space-y-3 ' >
                     {
                         images.map(image => {
                             return (
                                 <>
-                                    <div className="relative rounded-xl p-2 bg-gray-800">
-                                        <img src={image.path} className='rounded-xl' />
-                                        <div className=' px-2  absolute  bg-clip-padding backdrop-filter backdrop-brightness-75 backdrop-blur-sm bottom-0  bg-opacity-10 '>
-                                            <div className='  p-2 px-8 w-min '>
-                                                <p className='text-xl text-nowrap flex items-center top justify-center gap-2  font-semibold text-white' >
+                                    <div className="relative rounded-xl  w-100 h-100 p shadow-md  bg-clip-padding backdrop-filter backdrop-brightness-75 backdrop-blur-sm  bg-opacity-10  break-inside-avoid-column">
+                                        <img src={image.path} className='rounded-xl rounded-b-3xl' />
+                                        <div className='  rounded-lg '>
+                                            <div className='flex items-center  justify-center '>
+                                                <p className='text-2xl py-3 font-normal text-center  text-nowrap  gap-2 bg-clip-text text-gray-200' >
                                                     {image.category}
                                                 </p>
                                             </div>
                                         </div>
-                                    </div>
+                                    </div >
                                 </>
                             )
                         })
                     }
                 </div>
             </div>
-        </div>
+        </div >
 
     )
 }

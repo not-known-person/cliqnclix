@@ -15,7 +15,7 @@ const Homepage = () => {
     // }
     return (
 
-        <MainLayout component={<><HeroSection /></>}  ></MainLayout>
+        <MainLayout component={<><HeroSection /> <Images /> <FetauredImages /></>}  ></MainLayout>
     )
 }
 
