@@ -1,6 +1,5 @@
 import React from 'react'
 import Navbar from '../../components/Layout/Navbar'
-import Search from '../../components/Home/SearchBar/Search'
 import Search2 from '../../components/Home/SearchBar/SearchBar'
 import Images from '../../components/Home/ImageGrid/Images'
 import FetauredImages from '../../components/Fetaured/FetauredImages'

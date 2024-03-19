@@ -11,7 +11,7 @@ const SearchBar = () => {
                     <div className='h-100 w-[0.8px] bg-gray-500' ></div>
                     <input type="text" className='bg-transparent placeholder-gray-500 ' placeholder="I'm looking for..." />
                 </div>
-                <button className='bg-/40 rounded-md  text-white px-10 py-4  font-semibold bg-gray-700 shadow-md'  > Search  </button>
+                <button className=' rounded-md  text-white px-10 py-4  font-semibold bg-gray-700 shadow-md'  > Search  </button>
                 {/* <div>
                     <div class="relative inline-block text-left">
                         <div>

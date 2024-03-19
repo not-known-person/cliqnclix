@@ -2,7 +2,7 @@ import React from 'react'
 import SearchBar from '../SearchBar/SearchBar'
 
 const Images = () => {
-    const images = [{ path: "./pexels-ata-daftarifard-20440051.jpg", category: 'Nature', icon: 'https://img.icons8.com/material-outlined/24/deciduous-tree.png' }, { path: "./pexels-larissa-farber-19919509.jpg", category: "Food" }, { path: "./pexels-equalstock-in-20344348.jpg", category: 'Urban', icon: 'https://img.icons8.com/material-outlined/24/hut.png' }, { path: "./pexels-cody-graphy-20434627.jpg", category: 'Flower', icon: '' }, { path: "./pexels-larissa-farber-19919509.jpg", category: "Food" }, { path: "./pexels-marieke-mol-20518865.jpg", category: "Kids", icon: 'https://img.icons8.com/material-outlined/24/kid.png' }, { path: "./pexels-yuliana-pavlova-20425642.jpg", category: 'Black & White' }]
+    const images = [{ path: "./pexels-ata-daftarifard-20440051.jpg", category: 'Nature', icon: 'https://img.icons8.com/material-outlined/24/deciduous-tree.png' }, { path: "./pexels-larissa-farber-19919509.jpg", category: "Food" }, { path: "./pexels-equalstock-in-20344348.jpg", category: 'Urban', icon: 'https://img.icons8.com/material-outlined/24/hut.png' }, { path: "./pexels-cody-graphy-20434627.jpg", category: 'Flower', icon: '' }, { path: "./pexels-larissa-farber-19919509.jpg", category: "Food" }, { path: "./pexels-marieke-mol-20518865.jpg", category: "Kids", icon: 'https://img.icons8.com/material-outlined/24/kid.png' }, { path: "./pexels-yuliana-pavlova-20425642.jpg", category: 'Black & White' }, { path: "./pexels-caio-69970.jpg", category: 'Black & White' }]
     return (
         <div className='mt-8'>
             {/* <div className='m-12 flex justify-center flex-col items-center'>
@@ -20,7 +20,7 @@ const Images = () => {
                         images.map(image => {
                             return (
                                 <>
-                                    <div className="relative rounded-xl  w-100 h-100 p shadow-md  bg-clip-padding backdrop-filter backdrop-brightness-75 backdrop-blur-sm  bg-opacity-10  break-inside-avoid-column">
+                                    <div className="relative rounded-3xl  w-100 h-100 p shadow-md  bg-clip-padding backdrop-filter backdrop-brightness-75 backdrop-blur-sm  bg-opacity-10  break-inside-avoid-column">
                                         <img src={image.path} className='rounded-xl rounded-b-3xl' />
                                         <div className='  rounded-lg '>
                                             <div className='flex items-center  justify-center '>

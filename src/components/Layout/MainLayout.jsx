@@ -6,8 +6,8 @@ import Testimonials from './Testimonials'
 
 const MainLayout = ({ component }) => {
     return (
-        <div className='flex flex-col gap-5 bg-gray-800'>
-            <Navbar />
+        <div className='flex flex-col bg-gray-800'>
+            {/* <Navbar /> */}
             <div>
                 {component}
             </div>
