@@ -5,6 +5,7 @@ import Images from '../../components/Home/ImageGrid/Images'
 import FetauredImages from '../../components/Fetaured/FetauredImages'
 import MainLayout from '../../components/Layout/MainLayout'
 import HeroSection from '../../components/Home/HeroSection'
+import Testimonials from '../../components/Layout/Testimonials'
 
 const Homepage = () => {
 
@@ -14,7 +15,15 @@ const Homepage = () => {
     // }
     return (
 
-        <MainLayout component={<><HeroSection /> <Images /> <FetauredImages /></>}  ></MainLayout>
+        <MainLayout component={
+            <div className='flex flex-col gap-10'>
+                <HeroSection />
+                <Images />
+                <FetauredImages />
+                <Testimonials />
+            </div>
+        }>
+        </MainLayout>
     )
 }
 

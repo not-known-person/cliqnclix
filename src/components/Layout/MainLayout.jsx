@@ -11,7 +11,7 @@ const MainLayout = ({ component }) => {
             <div>
                 {component}
             </div>
-            <Testimonials />
+
             <Services />
             <Footer />
 
