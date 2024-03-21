@@ -26,14 +26,14 @@ const Footer = () => {
                     )
                 })}
             </div>
-            <div className='flex gap-5 justify-center' >
+            <div className='flex gap-5 justify-center mt-4' >
                 <img width="40" height="50" src="https://img.icons8.com/ios-filled/40/FFFFFF/facebook-new.png" alt="facebook-new" />
                 <img width="40" height="50" src="https://img.icons8.com/ios-filled/40/FFFFFF/twitter.png" alt="twitter" />
                 <img width="40" height="50" src="https://img.icons8.com/ios-filled/40/FFFFFF/youtube-play.png" alt="youtube-play" />
                 <img width="40" height="50" src="https://img.icons8.com/ios-filled/40/FFFFFF/linkedin.png" alt="linkedin" />
                 <img width="40" height="50" src="https://img.icons8.com/ios-filled/40/FFFFFF/pinterest--v1.png" alt="pinterest--v1" />
             </div>
-            <h1 className='text-center text-gray-200 mt-4'>
+            <h1 className='text-center text-gray-200 mt-4 text-xs'>
                 © 2023 CLIQNCLIX. All Rights Reserved
             </h1>
         </div>

@@ -8,7 +8,7 @@ import Product from './Pages/Product/Product';
 
 function App() {
   return (
-    <div className="App bg-red-100/50 font-mullish">
+    <div className="App font-mullish">
       <Routes>
         <Route element={<Homepage />} path=''></Route>
         <Route element={<Dashboard />} path='/contributor'></Route>

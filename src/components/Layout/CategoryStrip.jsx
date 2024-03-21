@@ -10,8 +10,8 @@ const CategoryStrip = () => {
     // iconbg: "rgb(0,255,0,0.10)",
     // iconColor: 'rgb(0,255,0)'
     return (
-        <div className='flex gap-4 mb-4  m-w-screen items-center'>
-            <div className='bg-gray-400/35 text-white-800 rounded-full p-2' >
+        <div className='flex gap-4 m-4  m-w-screen items-center'>
+            <div className='bg-gray-400/35 text-white rounded-full p-2' >
                 <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={1.5} stroke="currentColor" className="w-6 h-6">
                     <path strokeLinecap="round" strokeLinejoin="round" d="M15.75 19.5 8.25 12l7.5-7.5" />
                 </svg>
@@ -23,7 +23,7 @@ const CategoryStrip = () => {
                         <path strokeLinecap="round" strokeLinejoin="round" d="m9.75 9.75 4.5 4.5m0-4.5-4.5 4.5M21 12a9 9 0 1 1-18 0 9 9 0 0 1 18 0Z" />
                     </svg> : ''}  </div>)}
             </div >
-            <div className='bg-gray-400/35 text-white-800 rounded-full p-2' >
+            <div className='bg-gray-400/35 text-white rounded-full p-2' >
                 <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={1.5} stroke="currentColor" className="w-6 h-6">
                     <path strokeLinecap="round" strokeLinejoin="round" d="m8.25 4.5 7.5 7.5-7.5 7.5" />
                 </svg>

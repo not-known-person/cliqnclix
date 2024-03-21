@@ -3,15 +3,15 @@ import React from 'react'
 const SearchBar = () => {
     return (
         <div>
-            <div className=' flex justify-center items-center gap-3  mt-16 mb-4  rounded-xl  flex-wrap lg:flex-nowrap '>
-                <div className=' bg-clip-padding backdrop-filter backdrop-brightness-75 backdrop-blur-sm shadow-md  bg-opacity-10 p-4  flex gap-5 rounded-md '>
-                    <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={1.5} stroke="grey" className="w-6 h-6">
+            <div className=' flex justify-center items-center gap-3 mt-8  mb-4  rounded-xl  flex-nowrap '>
+                <div className=' bg-clip-padding backdrop-filter backdrop-brightness-75 backdrop-blur-sm shadow-md  bg-opacity-10 sm:px-10 sm:py-4 py-3 px-3 flex gap-5 rounded-md '>
+                    <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={1.5} stroke="grey" className="w-6 h-6 hidden sm:block">
                         <path strokeLinecap="round" strokeLinejoin="round" d="m21 21-5.197-5.197m0 0A7.5 7.5 0 1 0 5.196 5.196a7.5 7.5 0 0 0 10.607 10.607Z" />
                     </svg>
-                    <div className='h-100 w-[0.8px] bg-gray-500' ></div>
+                    <div className='h-100 w-[0.8px] bg-gray-500 hidden sm:block' ></div>
                     <input type="text" className='bg-transparent placeholder-gray-500 ' placeholder="I'm looking for..." />
                 </div>
-                <button className=' rounded-md  text-white px-10 py-4  font-semibold bg-gray-700 shadow-md'  > Search  </button>
+                <button className=' rounded-md  text-white px-5 sm:px-10 sm:py-4 py-3   font-semibold bg-gray-700 shadow-md'  > Search  </button>
                 {/* <div>
                     <div class="relative inline-block text-left">
                         <div>
