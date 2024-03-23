@@ -47,12 +47,13 @@ const Services = () => {
     ]
 
     return (
-        <div className='flex p-3 justify-center lg:flex-nowrap flex-wrap'>
+        <div className='flex p-3 justify-center lg:flex-nowrap flex-wrap border-t-2 border-gray-600'>
             {services.map(service => {
                 return (
                     <div className='flex flex-row gap-3 rounded-lg bg-clip-padding backdrop-filter backdrop-brightness-75 backdrop-blur-sm  bg-opacity-10 text-white p-4 m-2  shadow-md'  >
                         <div>
-                            <div className="rounded-full   w-min p-4 flex justify-center items-center" style={{ backgroundColor: service.iconbg, color: service.iconColor }}   >
+                            {/* <div className="rounded-full   w-min p-4 flex justify-center items-center" style={{ backgroundColor: service.iconbg, color: service.iconColor }}   > */}
+                            <div className="rounded-full   w-min p-4 flex justify-center items-center bg-gradient-to-tr  from-blue-400 to-red-400 text-gray-200"   >
                                 {service.icon}
                             </div>
                         </div>
