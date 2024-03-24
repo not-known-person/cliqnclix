@@ -2,7 +2,6 @@ import React from 'react'
 import Navbar from './Navbar'
 import Footer from './Footer'
 import Services from './Services'
-import Testimonials from './Testimonials'
 
 const MainLayout = ({ component }) => {
     return (
