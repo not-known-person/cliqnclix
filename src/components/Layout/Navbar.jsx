@@ -3,7 +3,7 @@ import React from 'react'
 const Navbar = () => {
   return (
     <>
-      <nav class="backdrop-filter backdrop-brightness-75 backdrop-blur-sm  bg-opacity-10 shadow">
+      <nav class="bg-clip-padding backdrop-filter backdrop-brightness-75 backdrop-blur-sm  bg-opacity-10 shadow">
         <div class=" px-2 sm:px-6 lg:px-4">
           <div class="relative flex py-3 items-center justify-between">
             <div class="absolute inset-y-0 left-0 flex items-center sm:hidden">
