@@ -10,7 +10,6 @@ const MainLayout = ({ component }) => {
             <div>
                 {component}
             </div>
-
             <Services />
             <Footer />
 

@@ -3,7 +3,7 @@ import React from 'react'
 const HeroSection = () => {
     return (
         <div>
-            <div className='relative  w-100 xl:grid xl:grid-cols-2 h-[92vh] overflow-hidden rounded-s-3xl ' >
+            <div className='relative  w-100 xl:grid xl:grid-cols-2 h-[92vh] overflow-hidden rounded-s-3xl bg-clip-padding backdrop-filter backdrop-brightness-75 backdrop-blur-sm  bg-opacity-10' >
                 <div className=' xl:col-span-1' >
                     <div className=' absolute xl:relative z-50 top-1/2 flex-col flex  xl:items-start   transform  -translate-y-1/2  p-4 gap-4 '>
                         <h1 className='text-6xl md:text-7xl font-black  text-wrap text-gray-200 '>Explore High Quality Images & Videos</h1>
@@ -13,8 +13,8 @@ const HeroSection = () => {
                         </button>
                     </div>
                 </div>
-                <div className='xl:col-span-1 mx-auto absolute xl:relative   rounded-s-lg'>
-                    <img src="./bg3.jpg" alt="" className=' rounded-s-3xl object-center h-[92vh] w-screen object-cover filter blur-sm xl:blur-none overflow-hidden' />
+                <div className='xl:col-span-1 mx-auto absolute xl:relative '>
+                    <img src="./bg3.jpg" alt="" className=' object-center h-[92vh] w-screen object-cover filter blur-sm xl:blur-none overflow-hidden' />
                 </div>
             </div>
         </div>

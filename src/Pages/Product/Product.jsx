@@ -23,9 +23,14 @@ const Product = () => {
                 component={
                     <div className='text-gray-200'>
                         <div className='backdrop-filter backdrop-brightness-75 backdrop-blur-sm  bg-opacity-10 lg:m-3 rounded-xl'>
-                            <h1 className='font-black text-2xl p-3 lg:text-4xl md:text-center' >
-                                Lorem, ipsum dolor sit amet consectetur adipisicing elit. Voluptatibus, quaerat.
-                            </h1>
+                            <div className='p-3'>
+                                <h1 className='font-black text-2xl  lg:text-4xl md:text-center' >
+                                    Lorem, ipsum dolor sit amet consectetur adipisicing elit. Voluptatibus, quaerat.
+                                </h1>
+                                <h5 className='font-medium lg:text-lg md:text-center text-gray-400'>
+                                    By Cliqnclix
+                                </h5>
+                            </div>
                             <div className='grid  lg:grid-cols-2 gap-4  p-3 shadow rounded-md '>
                                 <div className='lg:col-span-1   flex flex-col rounded-md items-center justify-center '>
                                     <div >
@@ -89,10 +94,11 @@ const Product = () => {
                                                 ₹ 7500
                                             </div>
                                         </div>
-                                        <button className=' rounded-md my-3 w-min text-nowrap  flex gap-2 items-center text-white px-5 sm:px-6 sm:py-4 py-3   font-semibold bg-gray-700 shadow-md'  ><svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={1.5} stroke="currentColor" className="w-6 h-6">
+                                        <button className=' rounded-md my-3 w-min text-nowrap  flex gap-2 items-center text-white px-5 sm:px-6 sm:py-4 py-3   font-semibold bg-gray-700 shadow-md'  >
+                                            {/* <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={1.5} stroke="currentColor" className="w-6 h-6">
                                             <path strokeLinecap="round" strokeLinejoin="round" d="M2.25 18.75a60.07 60.07 0 0 1 15.797 2.101c.727.198 1.453-.342 1.453-1.096V18.75M3.75 4.5v.75A.75.75 0 0 1 3 6h-.75m0 0v-.375c0-.621.504-1.125 1.125-1.125H20.25M2.25 6v9m18-10.5v.75c0 .414.336.75.75.75h.75m-1.5-1.5h.375c.621 0 1.125.504 1.125 1.125v9.75c0 .621-.504 1.125-1.125 1.125h-.375m1.5-1.5H21a.75.75 0 0 0-.75.75v.75m0 0H3.75m0 0h-.375a1.125 1.125 0 0 1-1.125-1.125V15m1.5 1.5v-.75A.75.75 0 0 0 3 15h-.75M15 10.5a3 3 0 1 1-6 0 3 3 0 0 1 6 0Zm3 0h.008v.008H18V10.5Zm-12 0h.008v.008H6V10.5Z" />
-                                        </svg>
-                                            Buy Now  </button>
+                                        </svg> */}
+                                            Add to Cart  </button>
                                     </div>
                                 </div>
                             </div>
@@ -152,7 +158,57 @@ const Product = () => {
                                 }
                             </div>
 
+                            <div className='flex justify-center items-center flex-col gap-6 p-4'>
+                                <div className='flex flex-col items-center'>
+                                    <h1 className='text-2xl font-semibold'>
+                                        Reviews
+                                    </h1>
+                                </div>
+                                <div className='flex gap-4'>
+                                    <div className='p-3 bg-gray-700 rounded-lg shadow'>
+                                        <div className='flex gap-2 items-center'>
+                                            <img src="https://th.bing.com/th/id/OIP.RczZ4xzTOoFZPPnqHD5MYgHaJ3?w=488&h=650&rs=1&pid=ImgDetMain" alt="" className='w-6 rounded-full h-6 object-cover object-center' />
+                                            <h5 className='text-gray-200 text-lg'>Anonymous</h5>
+                                        </div>
+                                        <h6 className='text-gray-400'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Labore repellendus voluptate odit doloremque quidem at nobis! Ipsum beatae fugit delectus enim?</h6>
+                                    </div>
+                                    <div className='p-3 bg-gray-700 rounded-lg shadow'>
+                                        <div className='flex gap-2 items-center'>
+                                            <img src="https://th.bing.com/th/id/OIP.RczZ4xzTOoFZPPnqHD5MYgHaJ3?w=488&h=650&rs=1&pid=ImgDetMain" alt="" className='w-6 rounded-full h-6 object-cover object-center' />
+                                            <h5 className='text-gray-200 text-lg'>Anonymous</h5>
+                                        </div>
+                                        <h6 className='text-gray-400'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Labore repellendus voluptate odit doloremque quidem at nobis! Ipsum beatae fugit delectus enim?</h6>
+                                    </div>
+                                    <div className='p-3 bg-gray-700 rounded-lg shadow'>
+                                        <div className='flex gap-2 items-center'>
+                                            <img src="https://th.bing.com/th/id/OIP.RczZ4xzTOoFZPPnqHD5MYgHaJ3?w=488&h=650&rs=1&pid=ImgDetMain" alt="" className='w-6 rounded-full h-6 object-cover object-center' />
+                                            <h5 className='text-gray-200 text-lg'>Anonymous</h5>
+                                        </div>
+                                        <h6 className='text-gray-400'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Labore repellendus voluptate odit doloremque quidem at nobis! Ipsum beatae fugit delectus enim?</h6>
+                                    </div>
+                                    {/* *There are no reviews yet */}
+                                </div>
+                                <hr className='h-2' />
+                                <div className='flex flex-col items-center'>
+                                    <h1 className='text-2xl font-semibold'>
+                                        Write your own  review
+                                    </h1>
+                                </div>
+                                <div>
+                                    <div className='flex justify-around gap-4 mb-4' >
+                                        <div className='w-full'>
+                                            <input type="text" className=' rounded-lg p-3 outline-none bg-gray-700 w-full' placeholder='Name' />
+                                        </div>
+                                        <div className='w-full'>
+                                            <input type="text" className=' rounded-lg p-3 outline-none bg-gray-700 w-full' placeholder='Email' />
+                                        </div>
+                                    </div>
+                                    <textarea name="" id="" cols="80" rows="8" className=' rounded-lg p-3  outline-none bg-gray-700' placeholder='Write your reviews'  ></textarea>
+                                </div>
+                            </div>
                         </div>
+
+
                         <h1 className='text-gray-200 text-2xl  xl:text-3xl font-bold text-center my-7'>Recommended For You</h1>
 
                         <Carousel centerMode autoPlay infiniteLoop showArrows={false} showIndicators={false} showThumbs={false} showStatus={false} centerSlidePercentage={window.innerWidth < 640 ? 85 : window.innerWidth <= 768 ? 70 : window.innerWidth < 1024 ? 60 : window.innerWidth < 1536 ? 30 : 30}>

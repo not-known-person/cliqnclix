@@ -16,8 +16,8 @@ const Images = () => {
                         images.map(image => {
                             return (
                                 <>
-                                    <div className="relative rounded-3xl  w-100 h-100 p shadow-md  bg-clip-padding backdrop-filter backdrop-brightness-75 backdrop-blur-sm  bg-opacity-10  break-inside-avoid-column">
-                                        <img src={image.path} className='rounded-xl rounded-b-3xl w-full' />
+                                    <div className="relative p-1 rounded-3xl  w-100 h-100 p shadow-md  bg-clip-padding backdrop-filter backdrop-brightness-75 backdrop-blur-sm  bg-opacity-10  break-inside-avoid-column">
+                                        <img src={image.path} className=' rounded-3xl w-full' />
                                         <div className='  rounded-lg '>
                                             <div className='flex items-center  justify-center '>
                                                 <p className='text-2xl py-3 font-normal text-center  text-nowrap  gap-2 bg-clip-text text-gray-200' >

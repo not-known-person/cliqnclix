@@ -3,7 +3,7 @@ import React from 'react'
 const Navbar = () => {
   return (
     <>
-      <nav class="bg-clip-padding backdrop-filter backdrop-brightness-75 backdrop-blur-sm  bg-opacity-10 shadow">
+      <nav class="bg-clip-padding backdrop-filter backdrop-brightness-75 backdrop-blur-sm  bg-opacity-10 ">
         <div class=" px-2 sm:px-6 lg:px-4">
           <div class="relative flex py-3 items-center justify-between">
             <div class="absolute inset-y-0 left-0 flex items-center sm:hidden">
@@ -35,11 +35,16 @@ const Navbar = () => {
               </div>
             </div>
             <div class="absolute inset-y-0 right-0 md:flex hidden text-white items-center pr-2 sm:static sm:inset-auto sm:ml-6 sm:pr-0 gap-4 ">
-              <button className=' bg-gray-700 text-gray-200 p-3  rounded-full'>
+              <button type="button" class="relative inline-flex items-center text-sm font-medium text-center  hover:bg-blue-800 focus:ring-4 focus:outline-none    bg-gray-700 text-gray-200 p-3  rounded-full" >
                 <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={1.5} stroke="currentColor" className="w-6 h-6">
                   <path strokeLinecap="round" strokeLinejoin="round" d="M21 8.25c0-2.485-2.099-4.5-4.688-4.5-1.935 0-3.597 1.126-4.312 2.733-.715-1.607-2.377-2.733-4.313-2.733C5.1 3.75 3 5.765 3 8.25c0 7.22 9 12 9 12s9-4.78 9-12Z" />
                 </svg>
+                <span class="sr-only">Notifications</span>
+                <div class="absolute inline-flex items-center justify-center w-6 h-6 text-xs font-bold text-white  bg-gradient-to-tr  from-blue-400 to-red-400  rounded-full -top-2 -end-2 dark:border-gray-900">20</div>
               </button>
+              {/* <button className=' bg-gray-700 text-gray-200 p-3  rounded-full'>
+               
+              </button> */}
               <button className='bg-gray-700 text-gray-200 p-3  rounded-full '>
 
                 <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={1.5} stroke="currentColor" className="w-6 h-6">

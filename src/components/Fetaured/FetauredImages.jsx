@@ -30,9 +30,8 @@ const FetauredImages = () => {
 
                             images.map(image => {
                                 return (
-                                    <div className='sm:m-4 m-2  shadow-md  backdrop-filter backdrop-brightness-75 backdrop-blur-sm  bg-opacity-10  rounded-3xl' >
-                                        <img src={image.path} alt="" className=' rounded-xl rounded-b-3xl ' />
-
+                                    <div className='sm:m-4 m-2 p-1 shadow-md  backdrop-filter backdrop-brightness-75 backdrop-blur-sm  bg-opacity-10  rounded-3xl' >
+                                        <img src={image.path} alt="" className=' rounded-3xl ' />
                                         <h2 className='xl:text-2xl text-xl xl:py-3 py-2  font-normal text-center  text-nowrap  gap-2 bg-clip-text text-gray-200'>
                                             {image.category}
                                         </h2>
@@ -56,8 +55,8 @@ const FetauredImages = () => {
                         {
                             images.map(image => {
                                 return (
-                                    <div className='sm:m-4 m-2 shadow-md backdrop-filter backdrop-brightness-75 backdrop-blur-sm  bg-opacity-10 rounded-3xl ' >
-                                        <img src={image.path} alt="" className=' rounded-xl rounded-b-3xl  ' />
+                                    <div className='sm:m-4 m-2 shadow-md p-1 backdrop-filter backdrop-brightness-75 backdrop-blur-sm  bg-opacity-10 rounded-3xl ' >
+                                        <img src={image.path} alt="" className='rounded-3xl  ' />
                                         <div className=''>
                                             <h2 className='xl:text-2xl text-xl xl:py-3 py-2 font-normal text-center  text-nowrap  gap-2 bg-clip-text text-gray-200'>
                                                 {image.category}

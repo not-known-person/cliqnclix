@@ -97,12 +97,12 @@ const Category = () => {
                             </div>
                             <div>
                             </div>
-                            <div className='lg:columns-3 md:columns-2 columns-1  space-y-4 lg:space-x-4'>
+                            <div className='lg:columns-3 md:columns-2 columns-1  space-y-4 '>
                                 {images.map(image => <div>
-                                    <div className="backdrop-filter backdrop-brightness-75 backdrop-blur-sm  bg-opacity-10  shadow-md rounded-3xl break-inside-avoid-column w-100" >
+                                    <div className="p-1 flex flex-col gap-1 backdrop-filter backdrop-brightness-75 backdrop-blur-sm  bg-opacity-10  shadow-md rounded-3xl break-inside-avoid-column w-100" >
                                         <img src={image.path} alt="" className='rounded-3xl' />
-                                        <div className='p-4 text-lg flex justify-between items-center ' >
-                                            <div className='flex flex-col font-bold'>
+                                        <div className=' text-lg flex justify-between items-center p-3' >
+                                            <div className='flex flex-col font-bold '>
                                                 <h1 className='text-gray-200 text-base'>
                                                     {image.description}
                                                 </h1>
