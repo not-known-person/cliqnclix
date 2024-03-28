@@ -164,7 +164,7 @@ const Product = () => {
                                         Reviews
                                     </h1>
                                 </div>
-                                <div className='flex gap-4'>
+                                <div className='flex gap-4 flex-wrap md:flex-nowrap'>
                                     <div className='p-3 bg-gray-700 rounded-lg shadow'>
                                         <div className='flex gap-2 items-center'>
                                             <img src="https://th.bing.com/th/id/OIP.RczZ4xzTOoFZPPnqHD5MYgHaJ3?w=488&h=650&rs=1&pid=ImgDetMain" alt="" className='w-6 rounded-full h-6 object-cover object-center' />
@@ -189,21 +189,46 @@ const Product = () => {
                                     {/* *There are no reviews yet */}
                                 </div>
                                 <hr className='h-2' />
+                                <div className='flex flex-col items-center gap-2'>
+                                    <h3 className='text-lg font-semibold '>
+                                        Give  Ratings
+                                    </h3>
+                                    <div className='flex gap-1' >
+                                        {
+                                            [1, 2, 3, 4, 5].map(() => {
+                                                return (
+                                                    <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={1.5} stroke="currentColor" className="w-6 h-6">
+                                                        <path strokeLinecap="round" strokeLinejoin="round" d="M11.48 3.499a.562.562 0 0 1 1.04 0l2.125 5.111a.563.563 0 0 0 .475.345l5.518.442c.499.04.701.663.321.988l-4.204 3.602a.563.563 0 0 0-.182.557l1.285 5.385a.562.562 0 0 1-.84.61l-4.725-2.885a.562.562 0 0 0-.586 0L6.982 20.54a.562.562 0 0 1-.84-.61l1.285-5.386a.562.562 0 0 0-.182-.557l-4.204-3.602a.562.562 0 0 1 .321-.988l5.518-.442a.563.563 0 0 0 .475-.345L11.48 3.5Z" />
+                                                    </svg>
+                                                )
+                                            })
+                                        }
+                                    </div>
+                                </div>
                                 <div className='flex flex-col items-center'>
                                     <h1 className='text-2xl font-semibold'>
                                         Write your own  review
                                     </h1>
+                                    <p className='text-sm text-gray-400 text-center'> Required fields are marked *</p>
                                 </div>
-                                <div>
-                                    <div className='flex justify-around gap-4 mb-4' >
+                                <div className='flex flex-col gap-4'>
+                                    <div className='flex justify-around gap-4 flex-wrap md:flex-nowrap' >
                                         <div className='w-full'>
-                                            <input type="text" className=' rounded-lg p-3 outline-none bg-gray-700 w-full' placeholder='Name' />
+                                            <input type="text" className=' rounded-lg p-3 outline-none bg-gray-700 w-full' placeholder='* Name' />
                                         </div>
                                         <div className='w-full'>
-                                            <input type="text" className=' rounded-lg p-3 outline-none bg-gray-700 w-full' placeholder='Email' />
+                                            <div className='w-full'>
+                                                <input type="text" className=' rounded-lg p-3 outline-none bg-gray-700 w-full' placeholder='* Email' />
+                                                <p className='text-xs text-nowrap  text-gray-400 '>Your email address will not be published. </p>
+                                            </div>
+                                        </div>
+                                        <div className='w-full'>
+                                            <input type="text" className=' rounded-lg p-3 outline-none bg-gray-700 w-full' placeholder=' Website' />
                                         </div>
                                     </div>
-                                    <textarea name="" id="" cols="80" rows="8" className=' rounded-lg p-3  outline-none bg-gray-700' placeholder='Write your reviews'  ></textarea>
+                                    <textarea name="" id="" rows='12' className=' rounded-lg p-3  outline-none bg-gray-700' placeholder='* Write your reviews'  ></textarea>
+
+                                    <button className=' w-full bg-gradient-to-tr  from-blue-400 to-red-400 text-gray-200 p-3 rounded-md shadow ' >Save</button>
                                 </div>
                             </div>
                         </div>

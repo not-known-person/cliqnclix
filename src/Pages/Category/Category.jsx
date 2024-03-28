@@ -34,7 +34,7 @@ const Category = () => {
             <MainLayout component={
                 <div>
                     {/* <CategoryStrip /> */}
-                    <div className='grid lg:grid-cols-12 gap-20 m-3 mb-12'>
+                    <div className='grid lg:grid-cols-12 gap-20 mt-4 mb-12 m-4'>
                         <div className='lg:col-span-2 hidden lg:block'>
                             <div className='sticky overflow-y-scroll h-[98vh] top-2 w-60 backdrop-filter backdrop-brightness-75 backdrop-blur-sm  bg-opacity-10  rounded-md shadow-md p-4 scrollbar-thin scrollbar-thumb-gray-400/35 scrollbar-track-transparent' >
                                 <div className='text-white flex flex-col gap-3'>
@@ -52,7 +52,7 @@ const Category = () => {
                                 </div>
                             </div>
                         </div>
-                        <div className='lg:col-span-10 flex flex-col gap-4 my-3'>
+                        <div className='lg:col-span-10 flex flex-col gap-3'>
                             <div className='flex justify-center flex-col md:flex-row gap-4  md:justify-between items-center text-white ' >
                                 <div className='text-4xl md:text-6xl font-black text-white bg-gray text-center' >
                                     Fashion
