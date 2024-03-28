@@ -21,38 +21,37 @@ const Register = () => {
                             <div class="">
                                 <label for="password" class="block text-gray-200 text-sm font-semibold mb-2">Last Name *</label>
                                 <input type="password" id="password" class="form-input w-full px-4 py-2 border rounded-lg text-gray-700 focus:ring-blue-500" required placeholder="••••••••" />
-                                {/* <p class="text-gray-300 text-xs mt-1">Must contain 1 uppercase letter, 1 number, min. 8 characters.</p> */}
+
                             </div>
                             <div class="">
                                 <label for="password" class="block text-gray-200 text-sm font-semibold mb-2">Email *</label>
                                 <input type="password" id="password" class="form-input w-full px-4 py-2 border rounded-lg text-gray-700 focus:ring-blue-500" required placeholder="••••••••" />
-                                {/* <p class="text-gray-300 text-xs mt-1">Must contain 1 uppercase letter, 1 number, min. 8 characters.</p> */}
+
                             </div>
                             <div class="">
                                 <label for="password" class="block text-gray-200 text-sm font-semibold mb-2">Password *</label>
                                 <input type="password" id="password" class="form-input w-full px-4 py-2 border rounded-lg text-gray-700 focus:ring-blue-500" required placeholder="••••••••" />
-                                {/* <p class="text-gray-300 text-xs mt-1">Must contain 1 uppercase letter, 1 number, min. 8 characters.</p> */}
+
                             </div>
                             <div class="">
                                 <label for="password" class="block text-gray-200 text-sm font-semibold mb-2">Confirm Password *</label>
                                 <input type="password" id="password" class="form-input w-full px-4 py-2 border rounded-lg text-gray-700 focus:ring-blue-500" required placeholder="••••••••" />
-                                {/* <p class="text-gray-300 text-xs mt-1">Must contain 1 uppercase letter, 1 number, min. 8 characters.</p> */}
+
                             </div>
                             <div class="">
                                 <label for="password" class="block text-gray-200 text-sm font-semibold mb-2">Mobile *</label>
                                 <input type="password" id="password" class="form-input w-full px-4 py-2 border rounded-lg text-gray-700 focus:ring-blue-500" required placeholder="••••••••" />
-                                {/* <p class="text-gray-300 text-xs mt-1">Must contain 1 uppercase letter, 1 number, min. 8 characters.</p> */}
+
                             </div>
-                            {/* <p class="text-gray-600 text-xs text-center mt-4">
-                                By clicking Register, you agree to accept Apex Financial's
-                                <a href="#" class="text-blue-500 hover:underline">Terms and Conditions</a>.
-                            </p> */}
                         </form>
-                        <button type="submit" class="w-full bg-blue-500 text-white mt-4  px-4 py-2 rounded-lg focus:outline-none bg-gradient-to-tr from-blue-400   to-red-400  focus:ring-2 focus:ring-opacity-50">Register</button>
+                        <div className='flex flex-col gap-3 w-full'>
+                            <button type="submit" class="w-full bg-blue-500 text-white mt-4  px-4 py-2 rounded-lg focus:outline-none bg-gradient-to-tr from-blue-400   to-red-400  focus:ring-2 focus:ring-opacity-50">Register</button>
+                            <button type="submit" class="w-full bg-blue-500 text-white px-4 py-2 rounded-lg focus:outline-none  backdrop-filter backdrop-brightness-75 backdrop-blur-sm  bg-opacity-10  focus:ring-2 focus:ring-opacity-50">Login with Google</button>
+                        </div>
                     </div>
                 </div>
                 <div>
-                    <img src="./pexels-garrett-morrow-736414.jpg" alt="" className='filter filter-md rounded-s-3xl object-center h-[100vh] w-screen object-cover overflow-hidden' />
+                    <img src="./pexels-caio-69970.jpg" alt="" className='filter blur-sm  object-center h-[100vh] w-screen object-cover overflow-hidden' />
                 </div>
             </div>
         </div>

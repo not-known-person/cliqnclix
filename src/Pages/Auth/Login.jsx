@@ -4,7 +4,7 @@ const Login = () => {
     return (
         <div className=''>
             {/* <div className='bg-clip-padding backdrop-filter backdrop-brightness-75 backdrop-blur-sm  bg-opacity-10' > */}
-            <div class="bg-gradient-to-tr from-gray-800 via-gray-500  to-gray-800 h-screen relative ">
+            <div class=' h-screen relative '>
                 <div className='flex justify-center items-center h-full absolute z-50 w-full' >
                     <div class=" p-8 rounded-3xl shadow-lg bg-gray-600  bg-clip-padding backdrop-filter backdrop-brightness-75 backdrop-blur-md  bg-opacity-10  flex justify-center items-center flex-col">
                         <div class="flex justify-center mb-6">
@@ -34,7 +34,7 @@ const Login = () => {
 
                 </div>
                 <div>
-                    <img src="./pexels-garrett-morrow-736414.jpg" alt="" className='filter filter-md rounded-s-3xl object-center h-[100vh] w-screen object-cover overflow-hidden' />
+                    <img src="./pexels-caio-69970.jpg" alt="" className='filter blur-sm  object-center h-[100vh] w-screen object-cover overflow-hidden' />
                 </div>
             </div>
         </div>
